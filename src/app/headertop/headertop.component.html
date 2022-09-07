@@ -1,0 +1,12 @@
+<header>
+    <div class="container">
+        <a class="logo-1">Self Ordering</a>
+        <nav>
+            <ul>
+                <li>
+                    <a class="logo" routerLink="/cart-page">View Order <span *ngIf="cartQuantity">{{cartQuantity}}</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

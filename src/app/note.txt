@@ -1,0 +1,4 @@
+new folder
+(page.component)
+{angular.json}
+"scripts": ["src/app/page/page.js"]

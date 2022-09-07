@@ -1,0 +1,218 @@
+import { Food } from "./app/shared/model/food"
+import { Tag } from "./app/shared/model/Tag"
+
+export const sample_foods: Food[] = [
+  // {
+  //   id:1,
+  //   name:'meal-1',
+  //   price:10,
+  //   imageUrl:'/assets/image/meal1.jpg',
+  //   tags:['Menu'],
+  // },
+  // {
+  //   id:2,
+  //   name:'meal-2',
+  //   price:20,
+  //   imageUrl:'/assets/image/meal2.jpg',
+  //   tags:['Menu'],
+  // },
+  // {
+  //   id:3,
+  //   name:'meal-3',
+  //   price:30,
+  //   imageUrl:'/assets/image/meal3.jpg',
+  //   tags:['Menu'],
+  // },
+  // {
+  //   id:4,
+  //   name:'meal-4',
+  //   price:40,
+  //   imageUrl:'/assets/image/meal4.jpg',
+  //   tags:['Menu'],
+  // },
+  // {
+  //   id:5,
+  //   name:'meal-5',
+  //   price:50,
+  //   imageUrl:'/assets/image/meal5.jpg',
+  //   tags:['Menu'],
+  // },
+  // {
+  //   id:6,
+  //   name:'meal-6',
+  //   price:60,
+  //   imageUrl:'/assets/image/meal6.jpg',
+  //   tags:['Menu'],
+  // },
+  // {
+  //   id:7,
+  //   name:'meal-7',
+  //   price:70,
+  //   imageUrl:'/assets/image/meal7.jpg',
+  //   tags:['Menu'],
+  // },
+  // ======================= drinks ======================
+  {
+    id:8,
+    name:'Drink-1',
+    price:10,
+    imageUrl:'/assets/image/drink-1.png',
+    tags:['Drinks'],
+  },
+  {
+    id:9,
+    name:'Drink-2',
+    price:10,
+    imageUrl:'/assets/image/drink-2.png',
+    tags:['Drinks'],
+  },
+  {
+    id:10,
+    name:'Drink-3',
+    price:10,
+    imageUrl:'/assets/image/drink-3.png',
+    tags:['Drinks'],
+  },
+  {
+    id:11,
+    name:'Drink-4',
+    price:10,
+    imageUrl:'/assets/image/drink-4.png',
+    tags:['Drinks'],
+  },
+  {
+    id:12,
+    name:'Drink-5',
+    price:10,
+    imageUrl:'/assets/image/drink-5.png',
+    tags:['Drinks'],
+  },
+  {
+    id:13,
+    name:'Drink-6',
+    price:10,
+    imageUrl:'/assets/image/drink-6.png',
+    tags:['Drinks'],
+  },
+  // ============================ dessert============================
+  {
+    id:14,
+    name:'Dessert-1',
+    price:10,
+    imageUrl:'/assets/image/dessert-1.png',
+    tags:['Dessert'],
+  },
+  {
+    id:15,
+    name:'Dessert-2',
+    price:10,
+    imageUrl:'/assets/image/dessert-2.png',
+    tags:['Dessert'],
+  },
+  {
+    id:16,
+    name:'Dessert-3',
+    price:10,
+    imageUrl:'/assets/image/dessert-3.png',
+    tags:['Dessert'],
+  },
+  {
+    id:17,
+    name:'Dessert-4',
+    price:10,
+    imageUrl:'/assets/image/dessert-4.png',
+    tags:['Dessert'],
+  },
+  {
+    id:18,
+    name:'Dessert-5',
+    price:10,
+    imageUrl:'/assets/image/dessert-5.png',
+    tags:['Dessert'],
+  },
+  {
+    id:19,
+    name:'Dessert-6',
+    price:10,
+    imageUrl:'/assets/image/dessert-6.png',
+    tags:['Dessert'],
+  },
+  // ========================LUNCH CATEGORY===========================
+  {
+    id:20,
+    name:'lunch-1',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-1.png',
+    tags:['Lunch'],
+  },
+  {
+    id:21,
+    name:'lunch-2',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-2.png',
+    tags:['Lunch'],
+  },
+  {
+    id:22,
+    name:'lunch-3',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-3.png',
+    tags:['Lunch'],
+  },
+  {
+    id:23,
+    name:'lunch-4',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-4.png',
+    tags:['Lunch'],
+  },
+  {
+    id:24,
+    name:'lunch-5',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-5.png',
+    tags:['Lunch'],
+  },
+  {
+    id:25,
+    name:'lunch-6',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-6.png',
+    tags:['Lunch'],
+  },
+  {
+    id:26,
+    name:'lunch-7',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-7.png',
+    tags:['Lunch'],
+  },
+  {
+    id:27,
+    name:'lunch-8',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-8.png',
+    tags:['Lunch'],
+  },
+  {
+    id:28,
+    name:'lunch-9',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-9.png',
+    tags:['Lunch'],
+  },
+  {
+    id:29,
+    name:'lunch-10',
+    price:10,
+    imageUrl:'/assets/image/lunch/lunch-10.png',
+    tags:['Lunch'],
+  }
+]
+
+export const sample_tags:Tag[] = [
+  { name: 'All', count: 22},
+  { name: 'Drinks', count: 6},
+  { name: 'Dessert', count: 6},
+  { name: 'Lunch', count: 10}
+]
