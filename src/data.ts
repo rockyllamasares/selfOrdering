@@ -3,54 +3,7 @@ import { Tag } from "./app/shared/model/Tag"
 
 export const sample_foods: Food[] = [
   // {
-  //   id:1,
-  //   name:'meal-1',
-  //   price:10,
-  //   imageUrl:'/assets/image/meal1.jpg',
-  //   tags:['Menu'],
-  // },
-  // {
-  //   id:2,
-  //   name:'meal-2',
-  //   price:20,
-  //   imageUrl:'/assets/image/meal2.jpg',
-  //   tags:['Menu'],
-  // },
-  // {
-  //   id:3,
-  //   name:'meal-3',
-  //   price:30,
-  //   imageUrl:'/assets/image/meal3.jpg',
-  //   tags:['Menu'],
-  // },
-  // {
-  //   id:4,
-  //   name:'meal-4',
-  //   price:40,
-  //   imageUrl:'/assets/image/meal4.jpg',
-  //   tags:['Menu'],
-  // },
-  // {
-  //   id:5,
-  //   name:'meal-5',
-  //   price:50,
-  //   imageUrl:'/assets/image/meal5.jpg',
-  //   tags:['Menu'],
-  // },
-  // {
-  //   id:6,
-  //   name:'meal-6',
-  //   price:60,
-  //   imageUrl:'/assets/image/meal6.jpg',
-  //   tags:['Menu'],
-  // },
-  // {
-  //   id:7,
-  //   name:'meal-7',
-  //   price:70,
-  //   imageUrl:'/assets/image/meal7.jpg',
-  //   tags:['Menu'],
-  // },
+ 
   // ======================= drinks ======================
   {
     id:8,
